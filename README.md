@@ -9,4 +9,4 @@ Key points:
 To-do list:
 
 1.	Optimise code to exclude all for loops, 
-2.	find a better way to deal with datasets with linearly dependent columns. At present it will simply compute the determinant of the co-variance matrix between all features. Non-positive values are indicative of features which are non-orthogonal.
+2.	find a better way to deal with datasets with linearly dependent columns. At present it will simply compute the determinant of the co-variance matrix between all features and issue a warning if it's non-positive.
