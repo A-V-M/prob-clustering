@@ -1,5 +1,5 @@
 # prob-clustering
-Unsupervised clustering based on Lloyd’s algorithm. 
+ 
 Unsupervised clustering algorithm based on Lloyd’s algorithm. 
 Key points:
 •	works only with binary vectors, 
@@ -10,3 +10,5 @@ To-do list:
 
 1.	Optimise code to exclude all for loops, 
 2.	find a better way to deal with datasets with linearly dependent columns. At present it will simply compute the determinant of the co-variance matrix between all features and issue a warning if it's non-positive.
+
+UPDATE:6.5.2017: added further code incorporating Mahalanobis distance
